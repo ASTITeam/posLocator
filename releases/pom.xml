@@ -7,7 +7,7 @@ https://maven.apache.org/xsd/maven-4.0.0.xsd"
     <groupId>com.github.ASTITeam</groupId>
 <!--    <artifactId>CellPOSLocator</artifactId>-->
     <artifactId>poslocator</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <packaging>pom</packaging>
     <description>POS Location Library</description>
 </project>
