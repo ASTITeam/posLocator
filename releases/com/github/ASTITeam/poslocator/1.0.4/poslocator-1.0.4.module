@@ -1,0 +1,128 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.ASTITeam",
+    "module": "poslocator",
+    "version": "1.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "poslocator-1.0.4.aar",
+          "url": "poslocator-1.0.4.aar",
+          "size": 123780,
+          "sha512": "74f719a0cb9b6ed7a4b05715cd6a3e1c86c58ad41a94ed26bf3bcdc038c1783dbdca0f083db943347f813b420c969a1adf50379bb3ec33eb961a2d189fe31224",
+          "sha256": "12b9c5416773c9feb043777be04ca07272482ef53f54dee7f9a4bc04ffe7929e",
+          "sha1": "4600db2cbc0348598be3af5479a06d0df1d3612f",
+          "md5": "efa72ac83ba1de18928a920af6d1c1ac"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "poslocator-1.0.4.aar",
+          "url": "poslocator-1.0.4.aar",
+          "size": 123780,
+          "sha512": "74f719a0cb9b6ed7a4b05715cd6a3e1c86c58ad41a94ed26bf3bcdc038c1783dbdca0f083db943347f813b420c969a1adf50379bb3ec33eb961a2d189fe31224",
+          "sha256": "12b9c5416773c9feb043777be04ca07272482ef53f54dee7f9a4bc04ffe7929e",
+          "sha1": "4600db2cbc0348598be3af5479a06d0df1d3612f",
+          "md5": "efa72ac83ba1de18928a920af6d1c1ac"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "poslocator-1.0.4-sources.jar",
+          "url": "poslocator-1.0.4-sources.jar",
+          "size": 56447,
+          "sha512": "daf3d846bbda9d1f581a95bbeb3c7cb663aa0f7dc8be30c0cea40fdc141c1612346313e083010a725649aa071f7fe447a0b7f3e4ff1afb7cb2abc7fd31ef7d12",
+          "sha256": "ca7920628d83aeb1b287294154a274d3e1022284b481d4a9218a500ced8ca503",
+          "sha1": "9ab2178fe1b042fc9f7380803a2670ba3775e514",
+          "md5": "a10806a790a9a97fba20aa76d611f455"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "poslocator-1.0.4-javadoc.jar",
+          "url": "poslocator-1.0.4-javadoc.jar",
+          "size": 412908,
+          "sha512": "64be94067aa98a006f434b484df45ad5146c323e38e9af7cda579b826391eba6305837bf0bd6c98dcb897f7da0fd464cfb3b805aacc1f4298b1e8d3475fc1242",
+          "sha256": "b9371be7b9a366ae4634ca04ef5dc7159d4e890a0a81403afc5b0ed41030cf06",
+          "sha1": "3080cb5b06ee016d7121318cf370904da7d3d14f",
+          "md5": "b390399a14af1e6334b0bec127d97aba"
+        }
+      ]
+    }
+  ]
+}
