@@ -10,11 +10,11 @@ Network Location Provider can be used in POS devices and smart Android device sd
 3. View and Analyze the carrier phase(if it is present in the log file).
 
 ## Install the library
-    implementation ('com.github.ASTITeam:poslocator:1.0.3') { changing = true }
+    implementation ('com.github.ASTITeam:poslocator:1.0.4') { changing = true }
 
 Or if the library is to be used only for debug builds and not release builds, then
 
-    debugImplementation ('com.github.ASTITeam:poslocator:1.0.3') { changing = true }
+    debugImplementation ('com.github.ASTITeam:poslocator:1.0.4') { changing = true }
 
 Add the repository maven URL in the settings.properties or the maven settings, If required to find the repository version:
 
