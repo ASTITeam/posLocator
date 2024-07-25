@@ -1,0 +1,142 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.ASTITeam",
+    "module": "poslocator",
+    "version": "1.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "poslocator-1.0.4.aar",
+          "url": "poslocator-1.0.4.aar",
+          "size": 166120,
+          "sha512": "b073ec3a4a42e90c9496ed22888d3ad3929fc58cba274f8bf2198a9ecdbf189587497e1de5217d010e86df8acb5ae325c913715374ba1aeae26cb270adfe33ad",
+          "sha256": "f9aa71504be9135cf1603269ebba991fe9a5efd2c62a2edd4a5d8a1253c738e0",
+          "sha1": "ed67e99692985acf1a66bb21c39db806fbf5d8d2",
+          "md5": "ac162ecd4a3731fc6e95dca78870f9b8"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "android.arch.lifecycle",
+          "module": "extensions",
+          "version": {
+            "requires": "1.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "poslocator-1.0.4.aar",
+          "url": "poslocator-1.0.4.aar",
+          "size": 166120,
+          "sha512": "b073ec3a4a42e90c9496ed22888d3ad3929fc58cba274f8bf2198a9ecdbf189587497e1de5217d010e86df8acb5ae325c913715374ba1aeae26cb270adfe33ad",
+          "sha256": "f9aa71504be9135cf1603269ebba991fe9a5efd2c62a2edd4a5d8a1253c738e0",
+          "sha1": "ed67e99692985acf1a66bb21c39db806fbf5d8d2",
+          "md5": "ac162ecd4a3731fc6e95dca78870f9b8"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "poslocator-1.0.4-sources.jar",
+          "url": "poslocator-1.0.4-sources.jar",
+          "size": 59729,
+          "sha512": "898f75e9560b878513a650adc4265619f7540ba13b16c3f888f1bf509a52b103075a47269fc995a57fa1ae96e7185724ed8c2b433cc782b868449be2fde1dace",
+          "sha256": "179cd265606f167f357240b4991458337e62f421571da8f99713fad6258d5d57",
+          "sha1": "6c6eb6b67cbc5dcdb237c11c7c436a1fd04d78a2",
+          "md5": "9b3ff22697d94e65e381ddc65c4aead3"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "poslocator-1.0.4-javadoc.jar",
+          "url": "poslocator-1.0.4-javadoc.jar",
+          "size": 421703,
+          "sha512": "1dd26844f35f18912fcd1eeb7f261300839b21ae99300244ca18729043fc222beac805eb00b59f66afcb7d4011b62b00032ee0fc0f9fea2f5e9303667a825268",
+          "sha256": "51bc8a16acdc5e6cd2d60991d871a551a95a739c96a2c026cfc1810b202c49c6",
+          "sha1": "c34512ad58b4974590042c59091f335ce02fa401",
+          "md5": "b74a4a93662b3ed8b52a417f48157c21"
+        }
+      ]
+    }
+  ]
+}
